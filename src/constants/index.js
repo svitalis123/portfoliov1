@@ -1,5 +1,11 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import pricewise from '../assets/images/disney.png';
+import merchstore from '../assets/images/merchstore.png';
+import maltafresh from '../assets/images/maltafresh.png';
+import todoistclone from '../assets/images/todoistclone.png';
+import web3nfts from '../assets/images/web3nfts.png';
+import ian from '../assets/images/ian.png';
+import extension from '../assets/images/extension.png';
 import {
     car,
     contact,
@@ -198,51 +204,66 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/svitalis123',
-        livelink: "https://disney-fbe0d.web.app/"
+        name: 'Disney+ clone',
+        description: 'Crafted a dynamic Disney+ clone showcasing my expertise in React for frontend development, integrated with Firebase Functions and Authentication for robust backend operations. Utilized Redux for efficient state management and Styled Components for sleek, responsive styling. This project reflects my ability to build secure, scalable, and visually compelling web applications, encapsulating the magic and user experience of Disney+.',
+        link: '',
+        livelink: "https://disney-fbe0d.web.app/home"
     },
     {
-        iconUrl: threads,
+        iconUrl: merchstore,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/svitalis123',
-        livelink: ""
+        name: 'Merch Store',
+        description: 'Developed a merch store for "IAN" featuring a robust frontend built with Next.js and TypeScript, and a backend powered by Node.js, with PostgreSQL managing the database. This comprehensive e-commerce platform includes an integrated store for managing orders, items, prices, and settings. Enhanced search functionality is powered by Algolia, offering users fast, accurate search results. ',
+        link: '',
+        livelink: "https://store.impactafrica.network/ke"
     },
     {
-        iconUrl: car,
+        iconUrl: maltafresh,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/svitalis123',
-        livelink: "",
-        livelink: ""
+        name: 'Maltafresh',
+        description: 'Created a vibrant website for Malta Fresh Ltd, leveraging the core web technologies: JavaScript, HTML, and CSS, to build a user-centric, interactive experience. Integrated Owl Carousel to showcase products in a dynamic, responsive slider. Additionally, implemented a seamless switch between dark and light modes, enhancing user accessibility and preference. ',
+        link: '',
+        livelink: "https://maltafreshltd.co.ke/",
     },
+    // {
+    //     iconUrl: snapgram,
+    //     theme: 'btn-back-pink',
+    //     name: 'Full Stack Instagram Clone',
+    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+    //     link: 'https://github.com/svitalis123',
+    //     livelink: ""
+    // },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/svitalis123',
-        livelink: ""
-    },
-    {
-        iconUrl: estate,
+        iconUrl: todoistclone,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/svitalis123',
-        livelink: ""
+        name: 'Todoist Clone',
+        description: "Developed a Todoist clone, leveraging React's useContext and useReducer hooks for state management, demonstrating a deep understanding of React's latest features for efficient, scalable app development. Styled with Tailwind CSS for a responsive, modern design and integrated a seamless light and dark mode switch for enhanced user experience. Incorporated Shadcn UI for ready-to-use, high-quality components",
+        link: 'https://github.com/svitalis123/todoist-clone',
+        livelink: "https://elaborate-bienenstitch-a84da0.netlify.app/"
+    },
+    // {
+    //     iconUrl: web3nfts,
+    //     theme: 'btn-back-yellow',
+    //     name: 'AI Summarizer Application',
+    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+    //     link: 'https://github.com/svitalis123',
+    //     livelink: ""
+    // },
+    {
+        iconUrl: ian,
+        theme: 'btn-back-yellow',
+        name: 'Impact Africa Network',
+        description: "Developed Ian's website using Django, embracing the Model-Template-View (MTV) architecture for a robust, scalable solution. Crafted to be responsive and cross-platform, ensuring seamless functionality and optimal user experience on any device. This project underscores my proficiency in leveraging Django's powerful framework to deliver high-quality web applications that meet modern standards.",
+        link: '',
+        livelink: "https://www.impactafrica.network/"
     },
     {
-        iconUrl: summiz,
+        iconUrl: extension,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/svitalis123',
-        livelink: ""
+        description: 'Designed a browser extension that seamlessly converts px to rem units, streamlining my development workflow and reducing development time by 5%. Its intuitive interface supports easy customization,. This tool enhances efficiency by simplifying the process of making CSS responsive, reflecting my commitment to optimizing productivity and code quality in web development projects.',
+        link: 'https://github.com/svitalis123/pxtoremextension',
+        livelink: "https://github.com/svitalis123/pxtoremextension"
     }
 ];
 
